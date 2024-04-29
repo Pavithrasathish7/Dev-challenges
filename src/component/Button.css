@@ -1,0 +1,146 @@
+* {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.button {
+  /* Default button styles */
+  background-color: #e7e7e7;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 3px 2px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: block;
+  font-weight: 500;
+}
+
+/* Button Hover Effect */
+.button:hover {
+  background-color: #aeaeae;
+}
+
+.custom-button {
+  background-color: white;
+  border: 2px solid #3d5afe;
+  color: #3d5afe;
+}
+.custom-button:hover {
+  background-color: #eaf0ff;
+}
+
+.nooutline-button {
+  color: royalblue;
+  border: none;
+  background-color: white;
+}
+.nooutline-button:hover {
+  background-color: #eaf0ff;
+}
+
+.dark-button {
+  background-color: royalblue;
+  color: white;
+}
+
+.disable-button {
+  color: rgb(155, 159, 159);
+  background-color: rgb(241, 239, 239);
+}
+.disable2-button {
+  color: rgb(155, 159, 159);
+  background-color: white;
+}
+
+.iconleft-button {
+  background-color: royalblue;
+  color: white;
+  display: inline;
+
+  img {
+    width: 15px;
+    padding: 0px;
+    margin: 0px;
+    border: white;
+    margin-right: 0.5rem;
+  }
+}
+
+.iconright-button {
+  background-color: royalblue;
+  color: white;
+
+  img {
+    width: 15px;
+    padding: 0px;
+    margin: 0px;
+    border: white;
+    margin-left: 0.5rem;
+  }
+}
+
+.small-button {
+  background-color: royalblue;
+  color: white;
+  width: 80px;
+  text-align: center;
+  padding: 10px;
+  display: inline;
+}
+
+.medium-button {
+  background-color: royalblue;
+  color: white;
+  width: 120px;
+  text-align: center;
+  padding: 15px;
+  display: inline;
+}
+
+.large-button {
+  background-color: royalblue;
+  color: white;
+  width: 150px;
+  text-align: center;
+  padding: 20px;
+  display: inline;
+}
+
+.color1-button {
+  color: rgb(9, 9, 9);
+  background-color: #e0e0e0;
+}
+.color1-button:hover {
+  background-color: #aeaeae;
+}
+
+.color2-button {
+  background-color: #2a62ff;
+  color: white;
+  display: inline;
+}
+.color2-button:hover {
+  background-color: #0239c9;
+}
+
+.color3-button {
+  background-color: #465a65;
+  color: white;
+  display: inline;
+}
+.color3-button:hover {
+  background-color: #1d313c;
+}
+
+.color4-button {
+  background-color: #d32f2e;
+  color: white;
+  display: inline;
+}
+.color4-button:hover {
+  background-color: #9b0008;
+}
